@@ -1,0 +1,38 @@
+
+
+.box {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+.box_container {
+    background-color: beige;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: "head head"
+                         "menu main"
+                         "foot foot";
+  
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 200px 100px;
+}
+
+.c1  {
+    grid-area: head;
+}
+
+.c2 {
+    grid-area: menu;
+}
+
+.c3 {
+    grid-area: main;
+}
+
+.c4 {
+    grid-area: foot;
+}
+

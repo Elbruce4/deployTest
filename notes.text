@@ -1,0 +1,17 @@
+
+POSITION:
+
+
+-FIXED: Se mantiene fijo en la web de nuestra página , toman como referencia la ventana del navegador
+ y no respetan el tener un contenedor padre que esté posicionado.
+-RELATIVE: Para posicionar a los elementos en una posición determinada, empieza siempre
+arriba a la izquierda
+-ABSOLUTE: Utilizado para posicionar un elemento en refencia a otro. Busca el elemento más cercano
+con la propiedad position:relative, sino busca el body
+-STATIC: Es el valor que toma un elemento por defecto para posicionarse. Con este valor, el elemento respetará 
+el flujo normal de la página, es decir, se posicionará
+ en el lugar que le corresponde y no tendrá en cuenta los valores para las propiedades top, left, right y bottom.
+
+-Z-INDEX: Un contenedor padre nunca se va a poner debajo del contenedor hijo. Podemos poner
+al hijo debajo del padre dandole a este un valor negativo, siempre y cuando el padre no tenga 
+ningún z-index declarado.
